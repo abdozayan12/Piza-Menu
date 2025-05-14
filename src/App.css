@@ -1,3 +1,79 @@
-body {
+/* App.css */
+
+/* General container */
+.container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  padding: 20px;
+  background:
+    linear-gradient(
+      to right,
+      rgba(82, 9, 9, 0.7),
+      rgba(37, 78, 37, 0.7),
+      rgba(59, 59, 138, 0.7)
+    );
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Pizza list styles */
+.pizza-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+
+/* Individual pizza item card */
+.pizza-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: rgba(0, 0, 0, 0.6); /* Slight transparency */
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Pizza image */
+.pizza-image {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Pizza info styling */
+.pizza-info h2 {
+  margin: 0 0 5px 0;
+  font-size: 1.2rem;
+}
+
+.pizza-info p {
+  margin: 0 0 5px 0;
+  font-size: 0.9rem;
+}
+
+.pizza-info strong {
+  font-size: 1.1rem;
+  color: #f4a261;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .pizza-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pizza-image {
+    width: 80px;
+  }
 }
