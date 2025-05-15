@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Piza from './components/Piza';
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Header />
       <Piza />
+      <Footer />
     </div>
   );
 }
