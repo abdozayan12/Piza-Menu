@@ -5,7 +5,7 @@ import '../App.css'; // Ensure App.css has the right styles
 export default function Piza() {
   return (
     <div className="container">
-      <h1>Pizza Menu</h1>
+      <h1>Our Menu</h1>
       <ul className="pizza-list">
         {pizzaData.map((pizza) => (
           <li
