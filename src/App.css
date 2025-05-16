@@ -19,6 +19,11 @@
   margin: 0;
 }
 
+.container h1 {
+  color: #ffe9a7;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
 /* Pizza list styles */
 .pizza-list {
   list-style: none;
