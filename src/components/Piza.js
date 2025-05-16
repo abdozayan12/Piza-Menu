@@ -25,6 +25,7 @@ export default function Piza() {
               <p>{pizza.ingredients}</p>
               <strong>{pizza.soldOut ? 'SOLD OUT' : `$${pizza.price}`}</strong>
             </div>
+            <button type="submit">More Info</button>
           </li>
         ))}
       </ul>
