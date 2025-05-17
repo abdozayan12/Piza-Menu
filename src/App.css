@@ -71,6 +71,18 @@
   color: #f4a261;
 }
 
+.btn {
+  border: #f4a261 solid 1px;
+  border-radius: 10px;
+  color: rgb(1, 58, 58);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: #ffe9a7;
+}
+
 /* Responsive adjustment */
 @media (max-width: 768px) {
   .pizza-item {
