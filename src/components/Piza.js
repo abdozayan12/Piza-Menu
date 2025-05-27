@@ -6,6 +6,10 @@ export default function Piza() {
   return (
     <div className="container">
       <h1>Our Menu</h1>
+      <p>
+        Authentic Italian cuisine. 6 creative dishes to choose from. All from
+        our stone oven , all organic, all delicious.😋
+      </p>
       <ul className="pizza-list">
         {pizzaData.map((pizza) => (
           <li
